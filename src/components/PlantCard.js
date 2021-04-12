@@ -1,6 +1,6 @@
 import React from "react";
 
-function PlantCard() {
+function PlantCard({name, price, image}) {
   return (
     <li className="card">
       <img src={"https://via.placeholder.com/400"} alt={"plant name"} />
